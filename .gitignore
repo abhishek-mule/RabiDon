@@ -1,0 +1,26 @@
+# RabiDon runtime (never commit)
+.env
+*.db
+*.db-wal
+*.db-shm
+data/
+output/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+# Secrets / tokens / client assets
+data/secrets/
+*.token
+*.pem
+*.key
+client_secret*.json
+credentials*.json
+token*.json
